@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to My Jekyll Site
+title: Welcome to Curiosity Corner
 ---
 
 <style>
@@ -83,8 +83,8 @@ a:hover {
     </ul>
 
     <div class="welcome-section">
-        <h1>Welcome to My Jekyll Site</h1>
-        <p>Hello, and welcome to my Jekyll-powered website! Here, I share my thoughts, ideas, and experiences on various topics.</p>
+        <h1>About us</h1>
+        <p> Here we bring you latest new and updates</p>
     </div>
     
    <div class="video-section">
@@ -105,7 +105,7 @@ a:hover {
 
     <div class="about-section">
         <h2>About Me</h2>
-        <p>I'm [Your Name], a passionate [your profession/hobby/interest]. I love [mention what you love about your profession/hobby/interest]. Feel free to explore my site and get to know me better!</p>
+        <p>I'm a passionate chef/blogger. I love dancing. Feel free to explore my site and get to know me better!</p>
     </div>
 
     <div class="connect-section">
