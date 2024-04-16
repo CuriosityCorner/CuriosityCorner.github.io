@@ -1,9 +1,9 @@
 ---
-layout: Home
+layout: home
 title: Welcome to My Jekyll Site
 ---
 
-<link rel="stylesheet" href="{{ '/sass/styles.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
 <div class="container">
     <!-- Menu -->
