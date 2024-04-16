@@ -11,44 +11,43 @@ title: Welcome to My Jekyll Site
     padding: 20px;
 }
 
-.welcome-section {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.latest-posts {
-    margin-bottom: 50px;
-}
-
-.about-section {
-    background-color: #f5f5f5;
-    padding: 50px;
-    border-radius: 5px;
+/* Add menu styles */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-.connect-section {
-    text-align: center;
-    margin-top: 50px;
+.menu li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.connect-section a {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
     text-decoration: none;
-    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
 }
 
-.connect-section a:hover {
-    background-color: #0056b3;
+.menu a:hover {
+    color: #007bff;
 }
 </style>
 
 <div class="container">
+    <!-- Menu -->
+    <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <!-- Add additional menu items as needed -->
+    </ul>
+
     <div class="welcome-section">
         <h1>Welcome to My Jekyll Site</h1>
         <p>Hello, and welcome to my Jekyll-powered website! Here, I share my thoughts, ideas, and experiences on various topics.</p>
