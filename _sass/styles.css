@@ -1,16 +1,15 @@
 /* _sass/styles.css */
 
-/* Color variables */
-:root {
-    --primary-color: #007bff; /* Blue */
-    --secondary-color: #555; /* Dark gray */
-    --hover-color: #0056b3; /* Dark blue on hover */
+/* Reset CSS */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, iframe, blockquote, pre, hr, form, fieldset, legend, input, button, textarea, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-/* Custom styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--secondary-color);
+    color: #333;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
@@ -22,16 +21,14 @@ body {
     padding: 20px;
 }
 
-/* Add menu styles */
+/* Menu Styles */
 .menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .menu li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -41,33 +38,110 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #007bff;
     font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s ease-in-out;
 }
 
 .menu a:hover {
-    color: var(--hover-color);
+    color: #0056b3;
 }
 
-/* Style headings */
-h1, h2, h3 {
-    color: var(--primary-color);
-    font-weight: bold;
+/* Welcome Section Styles */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-/* Style paragraphs */
-p {
+.welcome-section h1 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+}
+
+/* Video Section Styles */
+.video-section {
+    margin-bottom: 40px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Latest Blog Posts Styles */
+.latest-posts {
+    margin-bottom: 40px;
+}
+
+.post-list {
+    list-style: none;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
     line-height: 1.6;
 }
 
-/* Style links */
-a {
-    color: var(--primary-color);
-    text-decoration: none;
+/* About Me Section Styles */
+.about-section {
+    margin-bottom: 40px;
 }
 
-a:hover {
-    color: var(--hover-color);
+.about-section h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Connect with Me Section Styles */
+.connect-section {
+    text-align: center;
+}
+
+.connect-section h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background-color: #0056b3;
 }
