@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: Home
 title: Welcome to My Jekyll Site
 ---
 
