@@ -16,7 +16,31 @@ body {
     padding: 0;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add menu styles */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
 .menu a {
+    text-decoration: none;
     color: var(--secondary-color);
     font-weight: bold;
     font-size: 18px;
@@ -27,17 +51,21 @@ body {
     color: var(--hover-color);
 }
 
+/* Style headings */
 h1, h2, h3 {
     color: var(--primary-color);
     font-weight: bold;
 }
 
+/* Style paragraphs */
 p {
     line-height: 1.6;
 }
 
+/* Style links */
 a {
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 a:hover {
