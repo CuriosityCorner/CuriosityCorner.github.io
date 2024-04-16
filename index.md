@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to My Jekyll Site
+title: Welcome to My Site
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
