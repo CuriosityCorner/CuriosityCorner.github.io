@@ -16,8 +16,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-  sass:
+# Sass settings
+sass:
   sass_dir: _sass
   style: compressed
-
-
