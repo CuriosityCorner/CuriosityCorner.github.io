@@ -5,6 +5,14 @@ title: Welcome to My Jekyll Site
 
 <style>
 /* Custom CSS for improved styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Google Fonts */
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -30,14 +38,40 @@ title: Welcome to My Jekyll Site
 
 .menu a {
     text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out; /* Add smooth color transition */
+}
+
+.menu a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Style headings */
+h1, h2, h3 {
     color: #333;
     font-weight: bold;
 }
 
-.menu a:hover {
+/* Style paragraphs */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Style links */
+a {
     color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
 }
 </style>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 <div class="container">
     <!-- Menu -->
