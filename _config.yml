@@ -1,1 +1,19 @@
 remote_theme: "mmistakes/minimal-mistakes"
+# Site settings
+title: My Jekyll Site
+description: A simple Jekyll site example
+url: "https://your-username.github.io"
+baseurl: ""
+
+# Theme settings
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
