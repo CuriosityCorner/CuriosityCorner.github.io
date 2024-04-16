@@ -13,7 +13,6 @@ title: Welcome to My Jekyll Site
         <li><a href="/blog/">Blog</a></li>
         <!-- Add additional menu items as needed -->
     </ul>
-
     <div class="welcome-section">
         <h1>Welcome to My Jekyll Site</h1>
         <p>Hello, and welcome to my Jekyll-powered website! Here, I share my thoughts, ideas, and experiences on various topics.</p>
